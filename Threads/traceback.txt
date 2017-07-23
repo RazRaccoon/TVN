@@ -1,0 +1,21 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/scenes/testscene.rpy", line 2, in script
+    e "found the scene"
+Exception: Sayer 'e' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/scenes/testscene.rpy", line 2, in script
+    e "found the scene"
+  File "C:\Users\matth\Documents\GitHub\threads-vn\renpy-6.99.12.4-sdk\renpy\ast.py", line 593, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\matth\Documents\GitHub\threads-vn\renpy-6.99.12.4-sdk\renpy\ast.py", line 509, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
+Exception: Sayer 'e' is not defined.
+
+Windows-8-6.2.9200
+Ren'Py 6.99.12.4.2187
+Threads 1.0
