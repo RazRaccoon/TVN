@@ -1,3 +1,3 @@
 label test:
-e "found the scene"
+l "found the scene"
 return

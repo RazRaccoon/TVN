@@ -5,8 +5,8 @@
 
 
 
-define e = Character('joe', image = 'chuukichi' )
-
+define l = Character('Locke', image = 'Locke' )
+define d = Character('Dale', image = 'Dale' )
 
 # The game starts here.
 
@@ -25,20 +25,20 @@ label start:
     # These display lines of dialogue.
 
     "Maybe I can use this to show the thoughts of the character."
-    show chuukichi normal with moveinleft
+    show Locke normal with moveinleft
     
-    e "I'm testing writing my first game."
+    l "I'm testing writing my first game."
 
-    e thinking "This is okay." with dissolve
+    l blush "This is okay." with dissolve
     
-    show chuukichi happy at right with dissolve
+    show Dale happy at right with dissolve
     
-    e "There really isn't much to it."
+    l "There really isn't much to it."
     
     menu:
         "Choice 1":
-            e "Okay"
-            show joe blush at left with fade
+            show Locke happy at left with dissolve
+            l "Okay"
         "Second Choice":
             "test"
 
